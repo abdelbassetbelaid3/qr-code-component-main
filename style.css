@@ -9,26 +9,27 @@ body{
 }
 .Qr-code{
     background: hsl(0, 0%, 100%);
-    width: 40%;
-    padding-inline: 3%;
-    padding-block: 3%;
+    width: 25%;
+    padding-inline: 1%;
+    padding-block: 1%;
     margin-inline: auto;
     margin-block: 2%;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 .Qr-code img{
     width: 100%;
     margin-bottom: 20px;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 .Qr-code h1{
     color: hsl(218, 44%, 22%);
-
+    font-size: 23px;
     font-family: 'Outfit';
     font-weight: 700;
     margin-bottom: 20px;
+    margin-inline: 1%;
 }
 .Qr-code p{
     color: hsl(220, 15%, 55%);
@@ -36,20 +37,20 @@ body{
     font-family: 'Outfit';
     font-weight: 400;
     margin-bottom: 20px;
+    margin-inline: 1%;
 }
 @media only screen and (max-width:780px){
     .Qr-code{
-        width: 80%;
-    }
-    .Qr-code h1{
-        font-size: 24px;
+        width: 60%;
+        padding-inline: 3%;
+        padding-block: 3%;
     }
 }
 @media (min-width:781px) and (max-width:1024px){
     .Qr-code{
-        width: 60%;
+        width: 40%;
+        padding-inline: 2%;
+        padding-block: 2%;
     }
-    .Qr-code h1{
-        font-size: 24px;
-    }
+
 }
